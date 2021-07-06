@@ -1,0 +1,207 @@
+/* typography */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+body{
+    font: 1em sans-serif;
+}
+/* Extra Feature for Bonus Mark */
+.extra-menu-bar {
+	background: #0e011c;
+	padding: 20px 0;
+}
+.menu-content{}
+.menu-title{}
+.menu-title h1{
+    color: aliceblue;
+    cursor: pointer;
+}
+.nav-menu {
+	margin-left: auto;
+ 
+}
+.nav-menu ul{}
+.nav-menu ul li {
+	display: inline-block;
+	padding-left: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 4px;
+}
+.nav-menu ul li a{
+    display: block;
+    color: aliceblue;
+    transition: all .5s ease-in-out;
+}
+.nav-menu ul li a:hover{
+    color: bisque;
+}
+/* Welcome Section Start */
+.welcome-section {
+	padding: 3em 0;
+}
+.welcome-left {
+	width: 45%;
+}
+.welcome-left h2 {
+	font-size: 3em;
+	color: #353535;
+}
+.welcome-left h2 span {
+	color: #005b0094;
+}
+.welcome-left p {
+	padding: 1em 0;
+	font-weight: bold;
+	color: #666;
+	/* line-height: ; */
+}
+.food-ink {
+	display: inline-block;
+	padding: 15px 18px;
+	background: linear-gradient(pink, salmon , purple);
+	margin: 10px 10em;
+	border-radius: 5px;
+	color: aliceblue;
+	font-weight: bold;
+	transition: all .7s ease-in-out;
+	box-shadow: 0 0 5px 3px salmon;
+}
+.food-ink:hover{
+    background:linear-gradient(purple, salmon ,pink );
+}
+.welcome-right {
+	width: 45%;
+	margin-left: auto;
+	text-align: right;
+}
+.welcome-right img{
+    width: 90%;
+}
+/* css of About Section start */
+.about-section{
+    background: url(./img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.about-content{}
+.about-left{
+    width: 50%;
+}
+.about-left img{
+    width:550px;
+    border-radius: 50%;
+}
+.about-right {
+	width: 46%;
+	text-align: justify;
+	margin-top: 9em;
+	padding: 0 16px;
+}
+.about-right h2 {
+	text-align: center;
+	font-size: 2.7em;
+	color: #555;
+}
+.about-right p {
+	padding: 1em 0;
+	color: brown;
+	text-align: center;
+}
+.center-align {
+	margin-left: 13em;
+	margin-top: 18px;
+}
+/* css of About Section End */
+/* Recepie Secftion starts */
+.recipie-section {
+	margin: 2em 0;
+	text-align: center;
+}
+.recepie-content{}
+.recepie-top{}
+.recepie-top h2 {
+	font-size: 2.5em;
+	padding-top: 19px;
+	color: salmon;
+	font-weight: bold;
+}
+.recepie-top p {
+	font-weight: lighter;
+	padding: 0 19em;
+}
+.recepie-bottom {
+	margin-top: 5em;
+}
+.same-recepie {
+	width: 31%;
+	margin: 0 auto;
+	padding-top: 16px;
+	border-radius: 10px;
+	box-shadow: 0 0 7px 1px #898787;
+}
+.same-recepie img {
+	width: 90%;
+	height: 250px;
+	border-radius: 8px;
+}
+.same-recepie h2 {
+	color: salmon;
+	padding: .5em 0;
+	font-size: 2em;
+}
+.same-recepie p {
+	color: #444;
+	padding: 21px 20px;
+	text-align: justify;
+	padding-bottom: 36px;
+	line-height: 29px;
+}
+/* Liker Section */
+.liker-content {
+    margin: 7em 0;
+    text-align: center;
+    margin-left: 3%;
+    padding: 3em 1px;
+    width: 94%;
+    box-shadow: 0 0px 10px 0px #868585;
+    border-radius: 5px;
+}
+.same-liker {
+    margin: 0 7em;
+}
+/* Footer sectiuon starts */
+.footer-section {
+	background: #120031;
+	color: white;
+	text-align: center;
+	padding: 2em 0;
+}
+.footer-content{}
+.footer-content h2 {
+    font-size: 2em;
+}
+.footer-content h2 span{
+}
+.span-bold {
+    padding: .5em 0;
+    display: inline-block;
+}
+.footer-content p{}
