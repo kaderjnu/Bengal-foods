@@ -80,7 +80,7 @@ body{
 	border-radius: 5px;
 	color: aliceblue;
 	font-weight: bold;
-	transition: all .7s ease-in-out;
+	transition: all .6s ease-in-out;
 	box-shadow: 0 0 5px 3px salmon;
 }
 .food-ink:hover{
